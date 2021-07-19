@@ -8,8 +8,6 @@ RUN echo '%sudo ALL=(ALL) NOPASSWD:ALL' >> /etc/sudoers
 RUN service  --status-all
 RUN service ssh start
 
-COPY ./incuca.pem /home/ubuntu/
-
 WORKDIR /home/ubuntu
 RUN mkdir wwww
 
