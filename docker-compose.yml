@@ -1,0 +1,13 @@
+version: '3.2'
+
+services:
+    server:
+        build: ./v1
+        container_name: ubuntu-server
+        restart: always
+        ports:
+        - '8090:80'
+        - '22:22'
+        - '22222:22222'
+        volumes:
+        - "./v1/keys/:/home/ubuntu/"
