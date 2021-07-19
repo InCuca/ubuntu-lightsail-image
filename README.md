@@ -1,3 +1,3 @@
 ## Ubuntu 20.04 Lightsail Image
 
-Create a docker lightsail image for development tests
+Lightsail docker image to test automated scripts in local environment
